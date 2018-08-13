@@ -13,8 +13,7 @@ class Node {
   Node* GetNextNode();
   bool ErasePreviousNode();
   bool EraseNextNode();
-  Node* MovePre();
-  Node* MoveNext();
+
 private :
   Node* prev;
   Node* next;

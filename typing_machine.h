@@ -20,6 +20,7 @@ class TypingMachine {
 private:
   Node* home;
   Node* cursor;
+  int count;
 };
 
 #endif  // TYPING_MACHINE_H_
